@@ -2,7 +2,7 @@
 
 int main(){
 	
-	int mTorre, mBispo = 1, mRainha = 1;/*variaveis referente a movimentação das peças torre, bispo, rainha
+	int mTorre, mBispo = 1, mRainha = 1, mCavalo, m2Cavalo;/*variaveis referente a movimentação das peças torre, bispo, rainha
 										  o nome mPeça: m = movimento ou movimentação seguido da peça a ser movida*/
 	
 	//Movimento da torre
@@ -28,6 +28,19 @@ int main(){
 		mRainha++;
 		
 	}while(mRainha <= 8);
+	
+	for(m2Cavalo = 1; m2Cavalo <= 1; m2Cavalo++){
+		
+		mCavalo = 1;
+		
+		while(mCavalo <= 2){
+			
+			printf("Cima\n");
+			
+			mCavalo++;
+		}
+		printf("Esquerda\n");
+	}
 	
 	return 0;
 }
